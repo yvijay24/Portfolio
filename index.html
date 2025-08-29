@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Yashika Vijay — Full‑Stack Developer</title>
+  <meta name="description" content="Portfolio / one-page resume site for Yashika Vijay — Full-stack Developer (Laravel, React, Python)." />
+  <style>
+    :root{--accent:#6c63ff;--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2;--glass: rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:#e6eef6;background:linear-gradient(180deg,#071026 0%, #08182a 100%)}
+    .container{max-width:1000px;margin:40px auto;padding:28px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 8px 30px rgba(2,6,23,0.6)}
+    header{display:flex;gap:20px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#3db7ff);display:flex;align-items:center;justify-content:center;font-weight:700;color:white;font-size:28px}
+    h1{margin:0;font-size:24px}
+    .sub{color:var(--muted);font-size:13px;margin-top:6px}
+    .row{display:flex;gap:22px;margin-top:22px}
+    .col{flex:1}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    .pill{display:inline-block;padding:6px 10px;border-radius:999px;background:var(--glass);color:var(--muted);font-size:13px;margin-right:8px;margin-bottom:8px}
+    .section-title{font-weight:700;margin-bottom:10px}
+    ul{margin:0;padding-left:18px}
+    .contact{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+    a.button{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:#fff;text-decoration:none;font-weight:600}
+    .experience{margin-bottom:12px}
+    .job-meta{color:var(--muted);font-size:13px}
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+    @media (max-width:780px){.row{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <header>
+      <div class="avatar">YV</div>
+      <div>
+        <h1>Yashika Vijay</h1>
+        <div class="sub">Full‑stack Software Developer — Laravel • React • Python</div>
+        <div class="contact">
+          <div class="pill">Pune, India</div>
+          <a class="pill" href="tel:+918383065496">+91‑8383065496</a>
+          <a class="pill" href="mailto:yashikavijay56@gmail.com">yashikavijay56@gmail.com</a>
+          <a class="pill" href="https://linkedin.com/in/yashika-vijay-163170159" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+      <div style="margin-left:auto;display:flex;gap:10px;align-items:center">
+        <a class="button" id="downloadResume" href="Yashika_Vijay_Resume_Python.pdf" download>Download CV</a>
+        <a class="button" href="#contact" style="background:#0ea5a5">Contact</a>
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col">
+        <section class="card">
+          <div class="section-title">Professional Summary</div>
+          <p>Full‑stack Software Developer with 4+ years’ experience designing scalable, cloud‑native web applications using Laravel, React, and Python. Proven expertise in API development, AWS integration, and performance tuning.</p>
+
+          <div style="margin-top:14px">
+            <div class="section-title">Technical Skills</div>
+            <div>
+              <span class="pill">PHP / Laravel</span>
+              <span class="pill">Python</span>
+              <span class="pill">React.js</span>
+              <span class="pill">JavaScript (ES6+)</span>
+              <span class="pill">MySQL / SQL Server</span>
+              <span class="pill">AWS (EC2, S3, Polly)</span>
+            </div>
+          </div>
+
+          <div style="margin-top:14px">
+            <div class="section-title">Projects</div>
+            <div class="experience">
+              <strong>DNA OPS</strong>
+              <div class="job-meta">Laravel 8 platform — scaled to 10K+ concurrent users, DB optimisation, CI/CD (Jenkins, Azure DevOps)</div>
+            </div>
+            <div class="experience">
+              <strong>Odysseys Portal</strong>
+              <div class="job-meta">Employee management portal — Python MVC, Mule API integration</div>
+            </div>
+            <div class="experience">
+              <strong>Reporting Center</strong>
+              <div class="job-meta">Real‑time dashboards with React and MySQL; Tableau integration</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card" style="margin-top:18px">
+          <div class="section-title">Education</div>
+          <ul>
+            <li>PG Diploma in Advanced Computing — CDAC, Pune (2022)</li>
+            <li>B.Tech in Computer Science — Global College of Technology, Jaipur (2020)</li>
+          </ul>
+
+          <div style="margin-top:12px">
+            <div class="section-title">Awards & Achievements</div>
+            <p>Published research on “Online Tutor Finder” in the Journal of Advanced Research in IT.</p>
+          </div>
+        </section>
+      </div>
+
+      <aside class="col" style="flex:0.8">
+        <div class="card">
+          <div class="section-title">Work Experience</div>
+
+          <div class="experience">
+            <strong>Senior Software Developer</strong>
+            <div class="job-meta">Xcaliber Infotech Pvt. Ltd., Pune — Apr 2024 – Present</div>
+            <ul>
+              <li>Scaled high‑traffic Laravel systems, improving performance by ~40% and supporting 10K+ daily users.</li>
+              <li>Mentored junior developers; improved code quality and reduced bugs by 25%.</li>
+              <li>Optimized AWS usage — lowered infra costs by 20% while improving uptime.</li>
+            </ul>
+          </div>
+
+          <div class="experience">
+            <strong>Software Developer</strong>
+            <div class="job-meta">Xcaliber Infotech Pvt. Ltd., Pune — Apr 2023 – Mar 2024</div>
+            <ul>
+              <li>98% test coverage; reduced QA cycle by 30%.</li>
+              <li>Integrated multiple APIs and improved product interoperability.</li>
+            </ul>
+          </div>
+
+          <div class="experience">
+            <strong>Junior Software Developer</strong>
+            <div class="job-meta">Xcaliber Infotech Pvt. Ltd., Pune — Jul 2021 – Apr 2023</div>
+            <ul>
+              <li>Released 20+ features; supported 99.5% uptime in production.</li>
+              <li>Optimized SQL queries — reduced DB latency by 30%.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px">
+            <div class="section-title">Soft Skills</div>
+            <div><span class="pill">Mentorship</span><span class="pill">Agile/Scrum</span><span class="pill">Communication</span></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:18px" id="contact">
+          <div class="section-title">Contact / Apply</div>
+          <p>If you'd like to reach out for a job opportunity, send an email or use the quick contact form below.</p>
+          <form id="contactForm" onsubmit="return submitForm(event)">
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <input id="name" placeholder="Your name" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+              <input id="email" placeholder="Your email" type="email" required style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit">
+              <textarea id="message" placeholder="Message / role you are hiring for" rows="4" style="padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit"></textarea>
+              <button class="button" type="submit">Send Email</button>
+            </div>
+          </form>
+          <div style="margin-top:10px;color:var(--muted);font-size:12px">Note: This button opens your email client. To use on a live site with server form handling, connect an endpoint or service (Formspree, Netlify Forms).</div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      Built from resume. Last updated: <span id="updated"></span>
+    </footer>
+  </main>
+
+  <script>
+    // populate updated date
+    document.getElementById('updated').textContent = new Date().toLocaleDateString();
+
+    function submitForm(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Job opportunity for Yashika Vijay');
+      const body = encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+message);
+      window.location.href = `mailto:yashikavijay56@gmail.com?subject=${subject}&body=${body}`;
+      return false;
+    }
+  </script>
+</body>
+</html>
